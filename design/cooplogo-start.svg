@@ -1,9 +1,9 @@
 <svg width="341" height="349" viewBox="0 0 341 349" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g id="cooplogo-start">
-<path id="topright-path" d="M277.5 72C316.5 117.167 376.2 234.8 303 344" stroke="black" stroke-width="5"/>
-<path id="bottomright-path" d="M277.5 265.5C233 311.333 118.9 386.1 18.5 318.5" stroke="black" stroke-width="5"/>
-<path id="bottomleft-path" d="M76.5 267C47.8333 244.333 -6.70004 180.8 4.49996 108C18.5 17 98 -3.00002 144 33" stroke="black" stroke-width="5"/>
-<path id="topleft-path" d="M74.5 65.5C79.3333 41.3333 105.7 -4.69999 172.5 4.50001C239.3 13.7 241.333 89 234 125.5" stroke="black" stroke-width="5"/>
+<path id="topright-path" d="M277.5 72C316.5 117.167 376.2 234.8 303 344" stroke="none" stroke-width="5"/>
+<path id="bottomright-path" d="M277.5 265.5C233 311.333 118.9 386.1 18.5 318.5" stroke="none" stroke-width="5"/>
+<path id="bottomleft-path" d="M76.5 267C47.8333 244.333 -6.70004 180.8 4.49996 108C18.5 17 98 -3.00002 144 33" stroke="none" stroke-width="5"/>
+<path id="topleft-path" d="M74.5 65.5C79.3333 41.3333 105.7 -4.69999 172.5 4.50001C239.3 13.7 241.333 89 234 125.5" stroke="none" stroke-width="5"/>
 <g id="topleft-shape">
 <path id="Vector 6" d="M82.2764 39.1467C78.0074 36.6293 69.317 36 65.5055 36C64.235 36 60.6267 36.1573 56.3577 36.7867C51.0215 37.5733 44.923 39.9333 41.1115 46.2267C37.2999 52.52 38.0622 63.5333 38.0622 69.8267C38.0622 76.12 41.1115 81.6267 44.923 85.56C48.7346 89.4933 56.3577 91.0667 62.4562 91.0667C68.5547 91.0667 74.6532 90.28 79.9894 88.7067C85.3256 87.1333 90.6618 81.6267 92.1864 75.3333C93.711 69.04 92.9487 58.8133 92.1864 53.3067C91.4241 47.8 87.6125 42.2933 82.2764 39.1467Z" fill="#08B0EB"/>
 </g>
