@@ -12,15 +12,6 @@ gsap.registerPlugin(MotionPathPlugin);
 //INIT
 gsap.set("#topleft-path", {autoAlpha:0});
 
-// function hideCoop() {
-
-//     let tl = gsap.timeline()
-
-//     document.getElementById("coop-logo").style.visibility = "hidden";
-
-//     return tl;
-// }
-
 
 function firstAnimation(){
     
