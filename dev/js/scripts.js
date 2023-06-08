@@ -17,7 +17,7 @@ function firstAnimation(){
     
     let tl = gsap.timeline()
 
-    tl.to("#coop-logo", {visibility:"hidden"})
+    tl.to("#c, #o-1, #o-2, #p", {visibility: "hidden"})
     .to("#topleft-shape", {scale:0, duration:0.5, transformOrigin: "50% 50%",ease:"power3"})
     
 
@@ -55,8 +55,15 @@ function secondAnimation(){
 function lettersAnimation(){
 
     let tl = gsap.timeline()
-    tl.from("coop-logo", {drawSVG:0}, {visibility:"visible", duration: 3,drawSVG:"102%"})
+    tl.to("#topleft-shape, #topright-shape, #bottomleft-shape, #bottomright-shape", {visibility:"hidden"})
+    .to("#c", {visibility:"visible"})
+    .to("#o-1", {visibility:"visible"})
+    .to("#o-2", {visibility:"visible"})
+    .to("#p", {visibility:"visible"})
+    .to("#c, #o-1, #o-2, #p", {drawSVG:0}, {duration: 3,drawSVG:"100%"})
+    ;
 
+    return tl;
 
 }
 
