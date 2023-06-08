@@ -60,7 +60,7 @@ function lettersAnimation(){
     .to("#o-1", {visibility:"visible"})
     .to("#o-2", {visibility:"visible"})
     .to("#p", {visibility:"visible"})
-    .to("#c, #o-1, #o-2, #p", {drawSVG:0}, {duration: 3,drawSVG:"100%"})
+    // .to("#c, #o-1, #o-2, #p", {drawSVG:0}, {duration: 3,drawSVG:"100%"})
     ;
 
     return tl;
@@ -75,52 +75,5 @@ mainTl.add(firstAnimation())
 
 ;
 
-//.add(hideCoop())
-
 //GSDevTools.create();
 
-    // not right maybe usable??
-
-    // .from("#topright-shape", {scale:0, duration:0.25, ease:"none"})
-    // .from("#bottomleft-shape", {scale:0, duration:0.25, ease:"none"})
-    // .from("#bottomright-shape", {scale:0, duration:0.25, ease:"none"})
-
-    // .from("#topleft-shape", {scale:2.5, duration:0.75, ease:"power3"})
-    // .from("#topright-shape", {scale:1, duration:0.75, ease:"power3"})
-
-    // .from("#topleft-shape", {scale:3, duration:0.75, ease:"power3"})
-    // .from("#topright-shape", {scale:2, duration:0.75, ease:"power3"})
-
-    // .from("#topleft-shape", {scale:3.5, duration:0.75, ease:"power3"})
-    // .from("#topright-shape", {scale:2.5, duration:0.75, ease:"power3"})
-    // .from("#bottomleft-shape", {scale:1, duration:0.75, ease:"power3"})
-
-    // .from("#topleft-shape", {scale:3, duration:0.75, ease:"power3"})
-    // .from("#topright-shape", {scale:2.5, duration:0.75, ease:"power3"})
-    // .from("#bottomleft-shape", {scale:2, duration:0.75, ease:"power3"})
-    
-    // .from("#topleft-shape", {scale:2.5, duration:0.75, ease:"power3"})
-    // .from("#topright-shape", {scale:3, duration:0.75, ease:"power3"})
-    // .from("#bottomleft-shape", {scale:2.5, duration:0.75, ease:"power3"})
-    // .from("#bottomright-shape", {scale:1, duration:0.75, ease:"power3"})
-
-    // .from("#topleft-shape", {scale:2.5, duration:0.75, ease:"power3"})
-    // .from("#topright-shape", {scale:3, duration:0.75, ease:"power3"})
-    // .from("#bottomleft-shape", {scale:3, duration:0.75, ease:"power3"})
-    // .from("#bottomright-shape", {scale:2, duration:0.75, ease:"power3"})
-
-    // .from("#topleft-shape", {scale:2.5, duration:0.75, ease:"power3"})
-    // .from("#topright-shape", {scale:2.5, duration:0.75, ease:"power3"})
-    // .from("#bottomleft-shape", {scale:3.5, duration:0.75, ease:"power3"})
-    // .from("#bottomright-shape", {scale:2.5, duration:0.75, ease:"power3"})
-
-    // .from("#bottomleft-shape", {scale:2.5, duration:0.75, ease:"power3"})
-    // .from("#bottomright-shape", {scale:3, duration:0.75, ease:"power3"})
-
-    // .from("#bottomright-shape", {scale:3, duration:0.75, ease:"power3"})
-    // .from("#bottomright-shape", {scale:2.5, duration:0.75, ease:"power3"})
-
-    // .from("#topleft-shape", {scale:2, duration:0.75, ease:"power3"})
-    // .from("#topright-shape", {scale:2, duration:0.75, ease:"power3"})
-    // .from("#bottomleft-shape", {scale:2, duration:0.75, ease:"power3"})
-    // .from("#bottomright-shape", {scale:2, duration:0.75, ease:"power3"})
